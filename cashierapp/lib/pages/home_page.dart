@@ -31,14 +31,13 @@ class HomePage extends StatelessWidget {
             ],
           ),
         ),
-        
 
         body: Center(
           child: BlocBuilder<SimpleCalcCubit, SimpleCalcState>(
             builder: (context, state) {
               return Column(
                 children: [
-                  SizedBox(height: 20,),
+                  SizedBox(height: 20),
                   const Text("Auto Cashier at your service"),
                   const SizedBox(height: 20),
                   Text('Please fill out the feilds accordingly'),
@@ -52,6 +51,7 @@ class HomePage extends StatelessWidget {
                       decoration: const InputDecoration(
                         labelText: 'ProductPrice (R)',
                         icon: Icon(Icons.shopping_bag),
+                        hintText: '26.50'
                       ),
                       keyboardType: TextInputType.number,
                       onChanged: (value) {
@@ -72,6 +72,7 @@ class HomePage extends StatelessWidget {
                       decoration: const InputDecoration(
                         labelText: 'Amount Paid (R)',
                         icon: Icon(Icons.payment),
+                        hintText: '100'
                       ),
                       keyboardType: TextInputType.number,
                       onChanged: (value) {
