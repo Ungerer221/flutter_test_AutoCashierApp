@@ -1,2 +1,13 @@
 # flutter_test_AutoCashierApp
  
+# Resources used
+
+Dart Documentation : [Docs](https://dart.dev/)
+
+Flutter Documentation : [Docs](https://docs.flutter.dev/get-started/learn-flutter)
+
+Bloc  Documentation : [Docs](https://bloclibrary.dev/getting-started/)
+
+Materials Icon library : [Link](https://fonts.google.com/icons)
+
+Some appBar Styling : [Link](https://www.repeato.app/centering-the-title-of-an-appbar-in-flutter/#:~:text=The%20simplest%20and%20most%20efficient,both%20Android%20and%20iOS%20platforms.)

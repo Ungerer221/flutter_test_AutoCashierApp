@@ -24,6 +24,8 @@ class SimpleCalcCubit extends Cubit<SimpleCalcState> {
     }
 
     final denominations = [
+      {'value':200.0, 'name':'R200'},
+      {'value': 100.0,'name':'R100'},
       {'value': 50.0, 'name': 'R50'},
       {'value': 20.0, 'name': 'R20'},
       {'value': 10.0, 'name': 'R10'},
